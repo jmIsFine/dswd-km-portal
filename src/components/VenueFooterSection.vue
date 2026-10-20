@@ -191,9 +191,6 @@ const emit = defineEmits<{
 
       <div class="mt-10 border-t border-slate-900 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p>© 2026 DSWD - Social Welfare Institutional Development Bureau (SWIDB).</p>
-        <p class="text-slate-500">
-          Built with Vue 3 (&lt;script setup lang="ts"&gt;) • Strict TypeScript • Laravel API Ready
-        </p>
       </div>
     </div>
   </footer>
