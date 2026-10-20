@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* BrewedOps Flip Layout & List Transitions */
+.flip-list-move,
+.flip-list-enter-active,
+.flip-list-leave-active {
+  transition: all 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.flip-list-enter-from,
+.flip-list-leave-to {
+  opacity: 0;
+  transform: translateY(16px) scale(0.96);
+}
+
+.flip-list-leave-active {
+  position: absolute;
+}
